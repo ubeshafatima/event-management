@@ -1,0 +1,1873 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+  
+.img1{
+margin-top: -7px;
+margin-left: -7px;
+display: flex;
+}
+
+/* Media Query for Tablets and Smaller Screens */
+@media (max-width: 768px) {
+  .img1 {
+    margin-top: 0;
+    margin-left: 0;
+    justify-content: center;
+    max-width: 90%;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .img1 {
+    margin-top: 0;
+    margin-left: 0;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.nav1{
+background-color:white;
+position:fixed;
+width: 100.5%;
+height: 115px;
+}
+
+.side1 img{
+margin-top: 18px;
+margin-left: 99px;
+}
+
+.side2{
+margin-left: 1400px;
+text-decoration: none;
+padding: 1rem;
+justify-content:space-evenly ;
+margin-top: -80px;
+}
+
+.side2 ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 20px;
+margin-top: -1300px;
+}
+
+.side2 ul li a{
+text-decoration: none;
+font-size: 18px;
+color: #231f20;
+font-family:  brandon-grotesque, sans-serif;
+}
+
+
+
+
+
+.head1{
+color: rgb(253, 251, 251);
+margin-top: -650px;
+margin-left: 600px;
+font-family:Arial, Helvetica, sans-serif sans-serif;
+font-size: 20px;
+font-family: brandon-grotesque,sans-serif;
+} 
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .head1 {
+    margin-top: -400px; 
+    margin-left: 300px;  
+    font-size: 18px;     
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .head1 {
+    margin-top: -200px;  
+    margin-left: 20px;   
+    font-size: 16px;     
+    text-align: center;  
+  }
+}
+
+.eyebrow{
+box-sizing: border-box;
+color: inherit;
+margin: 0 0 20px;
+line-height: 1.3;
+font-style: normal;
+font-weight: 300;
+letter-spacing: 3px;
+font-size: 26px;
+text-transform: uppercase;
+font-family:"brandon-grotesque",sans-serif;
+margin-bottom: 50px;
+text-align: center;
+margin-top: 900px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .eyebrow {
+    font-size: 22px;  
+    margin-top: 400px; 
+    margin-bottom: 40px; 
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .eyebrow {
+    font-size: 18px; 
+    margin-top: 200px; 
+    margin-bottom: 30px; 
+    letter-spacing: 2px; 
+  }
+}
+
+.eyebrow2{
+letter-spacing: 0;
+box-sizing: border-box;
+color: inherit;
+font-size: 36px;
+margin: 0 0 20px;
+font-family: "the-seasons",sans-serif;
+font-weight: 300px;
+font-style: normal;
+text-align: center;
+line-height: 1.5;
+width: 900px;
+margin-left: 500px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .eyebrow2 {
+    font-size: 30px;   
+    width: 700px;      
+    margin-left: 150px; 
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .eyebrow2 {
+    font-size: 24px;   
+    width: 90%;        
+    margin-left: 0;    
+    text-align: center; 
+  }
+}
+
+.wed-logos{
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-style: normal;
+font-weight: 300;
+color: #231f20;
+line-height: 1.8;
+letter-spacing: 0;
+box-sizing: border-box;
+font-size: 20px;
+list-style-type: none;
+text-align: center;
+margin: 1em 0;
+padding: 2em 0;
+margin-bottom: 80px;
+border: 0;
+display: flex;
+margin-left: 340px;
+}
+
+.hsContent2{
+background-color: rgb(224, 208, 189);
+height: 600px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px)  */
+@media only screen and (max-width: 1024px) {
+  .wed-logos {
+    font-size: 18px;  
+    margin-left:150px; 
+    display:block;  
+  }
+
+  .hsContent2 {
+    height: 500px;  
+    
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .wed-logos {
+    font-size: 16px;  
+    margin-left: 0;   
+    margin-bottom: 40px; 
+    display: block;   
+    padding: 1em 0;   
+    
+  }
+
+  .hsContent2 {
+    height: 400px;  
+    
+  }
+}
+
+.t-blue h2{
+letter-spacing: 0px;
+box-sizing: border-box;
+font-family: "the-seasons", sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 1.3;
+margin-top: 150px;
+text-align: center;
+margin: 0 auto;
+display: block;
+font-size: 50px;
+color: #231F20;
+padding-top: 200px;
+width: 1000px;
+    
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .t-blue h2 {
+    font-size: 40px;  
+    margin-top: 100px; 
+    padding-top: 150px; 
+    width: 800px;  
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .t-blue h2 {
+    font-size: 30px;  
+    margin-top: 50px; 
+    padding-top: 100px; 
+    width: 90%;  
+}
+}
+
+.img3{
+margin-top:150px ;
+margin-left: 350px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .img3 {
+    margin-top: 100px;  
+    margin-left: 100px; 
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .img3 {
+    margin-top: 50px;   
+    margin-left: 0;     
+    text-align: center; 
+}
+}
+
+.col-md-5 {
+font-family: "brandon-grotesque",sans-serif;
+font-style: normal;
+font-weight: 300;
+color: #231F20;
+font-size: 20px;
+line-height: 1.8;
+letter-spacing: 0px;
+box-sizing: border-box;
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+margin-left: 1050px;
+margin-top: -450px;
+width: 650px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .col-md-5 {
+    font-size: 18px;  
+    margin-left: 500px; 
+    margin-top: -300px;
+    width: 500px; 
+}
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .col-md-5 {
+    font-size: 16px;  
+    margin-left: 0;   
+    margin-top: 100px; 
+    width: 90%;      
+    padding-right: 10px;
+    padding-left: 10px; 
+  }
+}
+
+.col-md-6{
+font-family: "brandon-grotesque",sans-serif;
+font-style: normal;
+font-weight: 300;
+color: #231f20;
+font-size: 20px;
+line-height: 1.8;
+box-sizing: border-box;
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+width: 600px;
+margin-top: 250px;
+margin-left: 350px;
+}
+
+
+.learnmore{
+  margin-left: 368px;
+ 
+}
+
+
+.learnmore :hover{
+  background-color: #000;
+  color: #ccc;
+}
+
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .col-md-6 {
+      font-size: 18px;  
+      margin-top: 200px; 
+      margin-left: 200px; 
+      width: 500px;  
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .col-md-6 {
+      font-size: 16px;  
+      margin-top: 150px; 
+      margin-left: 0;    
+      width: 90%;        
+      padding-right: 10px; 
+      padding-left: 10px; 
+  }
+}
+
+.img4{
+margin-top:-450px ;
+margin-left: 1070px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .img4 {
+      margin-top: -300px; 
+      margin-left: 500px;  
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .img4 {
+      margin-top: 150px; 
+      margin-left: 0;      
+      display: block;      
+      text-align: center;  
+  }
+}
+
+.image1{
+margin-top: 150px;
+width: 100%;
+height: 70vh;
+background-position: center;
+background-size: cover;
+background-image: url(https://www.quintanaevents.com/wp-content/uploads/2014/09/quintana-events-1-e1509118436595.jpg);
+background-attachment: fixed;
+}
+
+.text6{
+color: white;
+height: 45vh;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .text6 {
+      height: 40vh;   
+      font-size: 20px; 
+      padding: 20px;   
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .text6 {
+      height: 100vh;    
+      font-size: 16px; 
+      padding: 10px;   
+      text-align: center; 
+  }
+}
+
+.col-md-7{
+width: 29%;
+height: 50vh;
+font-family: "brandon-grotesque",sans-serif;
+font-style: normal;
+font-weight: 300;
+color: #231f20;
+box-sizing: border-box;
+margin: 0 0 20px;
+font-size: 20px;
+line-height: 1.8;
+letter-spacing: 0;
+margin-left: 1070px;
+margin-top: 150px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .col-md-7 {
+      width: 40%;              
+      height: 45vh;            
+      margin-left: 500px;       
+      margin-top: 100px;       
+      font-size: 18px;         
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .col-md-7 {
+      width: 90%;               
+      height: auto;             
+      margin-left: 0;          
+      margin-top: 50px;         
+      font-size: 16px;          
+  }
+}
+
+.img5{
+margin-top:-500px ;
+margin-left: 350px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .img5 {
+      margin-top: -300px; 
+      margin-left: 200px;  
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .img5 {
+      margin-top: 150px; 
+      margin-left:0;      
+      display: block;      
+      text-align: center;  
+  }
+}
+
+.image2{
+margin-top: 150px;
+width: 100%;
+height: 70vh;
+background-position: center;
+background-size: cover;
+background-image: url(https://www.quintanaevents.com/wp-content/uploads/2023/02/beach-event.jpg);
+background-attachment: fixed;
+}
+
+.col-md-8{
+width: 29%;
+height: 50vh;
+font-family: "brandon-grotesque",sans-serif;
+font-style: normal;
+font-weight: 300;
+color: #231f20;
+box-sizing: border-box;
+margin: 0 0 20px;
+font-size: 20px;
+line-height: 1.8;
+letter-spacing: 0;
+margin-top: 250px;
+margin-left: 350px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .col-md-8 {
+      width: 40%;               
+      height: 45vh;            
+      margin-left: 200px;     
+      margin-top: 150px;       
+      font-size: 18px;         
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .col-md-8 {
+      width: 90%;              
+      height: auto;           
+      margin-left: 0;           
+      margin-top: 50px;         
+      font-size: 16px;          
+  }
+}
+.img6{
+    margin-top:-450px ;
+    margin-left: 630px;  
+}
+   
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .img6 {
+      margin-top: -300px;  
+      margin-left: 300px;   
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .img6 {
+      margin-top: 150px;  
+      margin-left: 0;       
+      display: block;       
+      text-align: center;   
+  }
+}
+
+.image3{
+margin-top: 150px;
+width: 100%;
+height: 70vh;
+background-position: center;
+background-size: cover;
+background-image: url(https://www.quintanaevents.com/wp-content/uploads/2014/09/hm-spotlight-3.jpg);
+background-attachment: fixed;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .image1,
+  .image2,
+  .image3 {
+      height: 60vh; 
+      margin-top: 100px; 
+      background-attachment: scroll; 
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .image1,
+  .image2,
+  .image3 {
+      height: 50vh; 
+      margin-top: 80px; 
+      background-attachment: scroll; 
+  }
+}
+
+.logo{
+    text-align: center;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .logo {
+    padding: 20px;     
+      font-size: 24px;  
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .logo {
+      padding: 10px;     
+      font-size: 20px;  
+  }
+}
+
+.col-md-9{
+width: 29%;
+height: 50vh;
+font-family: "brandon-grotesque",sans-serif;
+font-style: normal;
+font-weight: 300;
+color: #231f20;
+box-sizing: border-box;
+margin: 0 0 20px;
+font-size: 20px;
+line-height: 1.8;
+letter-spacing: 0;
+margin-top: 250px;
+margin-left: 350px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .col-md-9 {
+      width: 40%;               
+      height: 45vh;            
+      margin-left: 200px;      
+      margin-top: 150px;      
+      font-size: 18px;        
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .col-md-9 {
+      width: 90%;              
+      height: auto;             
+      margin-left: 0;           
+      margin-top: 50px;         
+      font-size: 16px;          
+  }
+}
+
+.testimonial {
+margin-bottom: 2em;
+padding-bottom: 2em;
+position: relative;
+width: 55%;
+margin-left: 540px;
+margin-top: -620px;
+}
+
+.timg{
+margin-left: 985px;
+margin-top: -180px;
+}
+
+.testimonial p {
+color: #131212;
+text-transform: uppercase;
+font-size: 38px;
+font-family: "brandon-grotesque",sans-serif;
+font-style: normal;
+font-weight: 300;
+line-height: 1;
+margin-left: 500px;
+}
+
+.text11 cite {
+font-family:"brandon-grotesque",sans-serif;
+font-style: normal;
+font-weight: 500;
+color: #0a0a0a;
+display: block;
+font-size: 1.3em;
+margin-left:1210px ;
+margin-top: -78px;
+}
+
+/*  For laptops and tablets (screens between 768px and 1024px) */ 
+@media only screen and (max-width: 1024px) {
+  .testimonial {
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 300px; 
+  }
+  
+  .testimonial p {
+    font-size: 30px; 
+    margin-left: 0; 
+    text-align: center; 
+    margin-bottom: -140px;
+  }
+  
+  .text11 cite {
+    font-size: 1.1em; 
+    margin-left: 0; 
+    margin-top: 0; 
+    text-align: center; 
+  }
+  
+  .timg {
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: -100px; 
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .testimonial {
+    width: 90%; 
+    margin-top: 200px; 
+  }
+  
+  .testimonial p {
+    font-size: 24px; 
+    margin-left: 0; 
+    text-align: center; 
+  }
+  
+  .text11 cite {
+    font-size: 1em; 
+    margin-left: 0; 
+    margin-top: 0; 
+    text-align: center; 
+  }
+  
+  .timg {
+    margin-left: 0; 
+    margin-top: -50px; 
+  }
+}
+}
+
+.text12{
+margin-left: 1050px;
+margin-top: 95px;
+font-family:"brandon-grotesque",sans-serif;
+width: 27%;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .text12 {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 80%; 
+    margin-top: 70px; 
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .text12 {
+    margin-left: 0; 
+    margin-right: 0; 
+    width: 100%; 
+    margin-top: 50px; 
+    text-align: center; 
+  }
+}
+.line hr{
+  margin-top: 120px;
+  width:30%;
+  margin-right: 290px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .line hr {
+    width: 50%; 
+    margin-right: 20%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 80px; 
+  }
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .line hr {
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 60px;
+  }
+}
+.text13{
+  margin-left: 1050px;
+}
+
+/* For laptops and tablets (screens between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .text13 {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 80%; 
+}
+}
+
+/* For mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .text13 {
+    margin-left: 0; 
+    margin-right: 0; 
+    width: 100%; 
+    text-align: center; 
+  }
+}
+
+.icon{
+margin-left: 1050px;
+margin-top: 55px;
+color: #0a0a0a;
+padding: 5px, 15px;
+font-size: 30px;
+}
+
+.footer-address {
+margin-left: 1050px;
+margin-top: 30px;
+color: #000;
+}
+
+.footer-logo{
+margin-top: -90px;
+margin-left: 1400px;
+}
+ 
+.end{
+background-color: #0a0a0a;
+margin-left: -1600px;
+height: 90px;
+margin-right: -8px;
+margin-top: 190px;
+margin-bottom: -8px;
+}
+
+.end h4{
+color: #f7f6f6;
+margin-left: 20px;
+text-align: center;
+font-size: larger;
+margin-top: 55px;
+}
+
+li{
+list-style-type: none;
+}
+
+/* Responsive adjustments for medium screens (laptops/tablets) */
+@media only screen and (max-width: 1024px) {
+  .icon {
+    margin-left:20px; 
+    margin-right: 20px; 
+    font-size: 24px; 
+    margin-top: 30px; 
+  }
+
+  .footer-address {
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 15px;
+    color: #000;
+  }
+
+  .footer-logo {
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 0; 
+  }
+
+  .end {
+    margin-left: 0; 
+    margin-right: 0; 
+    margin-top: 100px; 
+  }
+}
+
+/* Responsive adjustments for mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .icon {
+    margin-left: 0; 
+    margin-right: 0; 
+    font-size: 20px; 
+    margin-top: 20px; 
+  }
+
+  .footer-address {
+    margin-left: 0; 
+    margin-right: 0; 
+    margin-top: 10px; 
+   
+  }
+
+  .footer-logo {
+    margin-left: 0; 
+    margin-right: 0; 
+    margin-top: 0; 
+    text-align: center; 
+  }
+
+  .end {
+    margin-left: 0; 
+    margin-right: 0; 
+    height: auto; 
+    margin-top: 50px; 
+    padding: 20px 0; 
+  }
+
+  .end h4 {
+    margin-left: 0; 
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.container {
+max-width: 500px;
+margin: 20px auto;
+padding: 20px;
+background: white;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+margin-left: 300px;
+margin-top: 100px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+input, textarea {
+margin: 10px 0;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button {
+background: #2a513f;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button:hover {
+background: #E1306C;
+}
+
+/* Responsive adjustments for medium screens (laptops/tablets) */
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+
+  input, textarea {
+    padding: 12px; 
+  }
+
+  button {
+    padding: 12px; 
+  }
+}
+
+/* Responsive adjustments for mobile devices (screens below 768px) */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 95%; 
+    margin: 10px; 
+  }
+
+  input, textarea {
+    padding: 15px; 
+    font-size: 16px; 
+  }
+
+  button {
+    padding: 15px; 
+    font-size: 16px; 
+  }
+}
+
+/* Event Planning */
+.main{
+width: 100%;
+height: 100vh;
+background-position: center;
+background-size: cover;
+background-image: url(https://www.quintanaevents.com/wp-content/uploads/2020/01/annamarksphoto_lizaben_wedding_773.jpg);
+ background-attachment: fixed;
+}
+
+.image-overlay{
+width: 100%;
+height:84.5vh;
+display:flex;
+background-color:#0000003f;
+color: white;
+align-items: center;
+justify-content: center;
+margin-top: -1100px;
+}
+
+.heading{
+margin-left: 50px;
+font-size: 3em;
+font-family:'the-seasons',sans-serif;
+margin-top: 100px;
+width: 60%;
+color: #fafafa;
+text-transform: uppercase;
+text-align: center;
+font-weight: 300;
+font-style: normal;
+line-height: 1.3em;
+}
+
+#section{
+ background-color: #f7f6f6; 
+ margin-top: -105px;
+ height: 50vh;
+ }
+
+.head2{
+font-size: 25px;
+font-family:'the-seasons',sans-serif ;
+text-align: center;
+color: #000;
+margin-top: -450px;
+margin-left: -140px;
+}
+
+.head2 h2{
+font-size: 22px;
+font-family:'the-seasons',sans-serif ;
+width: 1150px;
+margin-left: 500px;
+}
+
+.head2hr1{
+width: 50px;
+margin-top: 40px;
+margin-left: 850px;
+}
+
+.head2 p{
+font-size: 18px;
+font-family:'the-seasons',sans-serif ;
+width: 58%;
+margin-left: 500px;
+margin-top: 40px;
+}
+
+/* Media Query for tablets (screen width: 768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .heading {
+    font-size: 2.5em;
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .head2 h2 {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .head2 p {
+    width: 90%;
+    margin-left: 0;
+  }
+}
+
+/* Media Query for smaller tablets and large phones (screen width: 600px - 768px) */
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 2em;
+  }
+
+  .head2 {
+    font-size: 22px;
+    margin-top: -200px;
+  }
+
+  .head2 h2 {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .head2 p {
+    font-size: 16px;
+    width: 90%;
+  }
+}
+
+/* Media Query for phones (screen width: 320px - 600px) */
+@media screen and (max-width: 600px) {
+  .image-overlay {
+    margin-top: -500px;
+    height: 60vh;
+  }
+
+  .heading {
+    font-size: 1.5em;
+    margin-top: 50px;
+    width: 90%;
+  }
+
+  .head2 {
+    font-size: 20px;
+    margin-top: -100px;
+    margin-left: 0;
+  }
+
+  .head2 h2 {
+    font-size: 18px;
+    width: 95%;
+    margin-left: 0;
+  }
+
+  .head2 p {
+    font-size: 14px;
+    width: 95%;
+    margin-left: 0;
+  }
+}
+
+#box{
+margin-left: 345px;
+box-sizing: border-box;
+display: flex;
+}
+
+.box1,.box2,.box3{
+width: 350px;
+height: 2px;
+padding: 10px;
+font-family:'the-seasons',sans-serif ;
+font-size: 20px;
+margin-left: 50px;
+margin-top: 50px;
+}
+
+.box1 ul li,.box2 ul li,.box3 ul li{
+margin-top: 20px;
+}
+
+/* Media Query for tablets (screen width: 768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  #box {
+    margin-left: 50px;
+    flex-wrap: wrap; 
+  }
+
+  .box1, .box2, .box3 {
+    width: 100px;
+    margin-left: 30px;
+  }
+}
+
+/* Media Query for smaller tablets and large phones (screen width: 600px - 768px) */
+@media screen and (max-width: 768px) {
+  #box {
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box1, .box2, .box3 {
+    width: 90%; 
+    margin-left: 0;
+  }
+}
+
+/* Media Query for phones (screen width: 320px - 600px) */
+@media screen and (max-width: 600px) {
+  #box {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box1, .box2, .box3 {
+    width: 100%; 
+    margin-left: 0;
+    margin-top: 250px;
+  }
+
+  .box1 ul li, .box2 ul li, .box3 ul li {
+    font-size: 18px; /* Smaller font for better readability on mobile */
+    margin-top: 15px;
+  }
+}
+
+#Eventplanning{
+background-color:rgb(224, 208, 189);
+margin-top: 300px; 
+height: 590px;
+padding: 80px;
+}
+    
+#Eventplanning H1{
+margin-left: 1050PX;
+}
+
+.para{
+width: 350px;
+margin-left: 345px;
+margin-right: 50%;
+font-family: 'the-seasons',sans-serif ;
+}
+
+.para ul {
+margin-top: -600px;
+margin-left: 750PX;
+width: 100%;
+font-family: 'the-seasons',sans-serif ;
+font-size: 22PX;
+}
+      
+.para ul li{
+margin-top: 20px;
+}
+
+/* Media query for tablets (screen width: 768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  #Eventplanning h1 {
+    margin-left: 0;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .para {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .para ul {
+    margin-top: -700px;
+    margin-left: 0;
+    font-size: 20px;
+  }
+}
+
+/* Media query for smaller tablets and phones (screen width: 600px - 768px) */
+@media screen and (max-width: 768px) {
+  #Eventplanning h1 {
+    font-size: 24px;
+    margin-left: 0;
+  }
+
+  .para {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .para ul {
+    margin-top: -100px;
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .para ul li {
+    margin-top: 15px;
+  }
+}
+
+/* Media query for phones (screen width: 320px - 600px) */
+@media screen and (max-width: 600px) {
+  #Eventplanning {
+    padding: 40px;
+  }
+
+  #Eventplanning h1 {
+    font-size: 22px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .para {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .para ul {
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  .para ul li {
+    margin-top: 10px;
+  }
+}
+
+.pic4{
+margin-top: -678px;
+}
+
+/* Media query for tablets (screen width: 768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .pic4 {
+    margin-top: 30px; 
+  }
+
+  .pic4 img {
+    max-width: 750px;
+  }
+}
+
+/* Media query for phones (screen width: 320px - 768px) */
+@media screen and (max-width: 768px) {
+  .pic4 {
+    margin-top: 20px;
+  }
+
+  .pic4 img {
+    max-width: 100%; 
+  }
+}
+
+#box2{
+margin-left: 465px;
+box-sizing: border-box;
+display: flex;
+margin-top: 90px;
+}     
+
+h4{
+font-size: 24px;
+font-family:'the-seasons',sans-serif;
+}
+
+p{
+font-size: 21px;
+margin-left: -5px;
+}
+
+.box4,.box5,.box6{
+width: 350px;
+height: 2px;
+padding: 10px;
+text-align: start;
+font-family: 'the-seasons',sans-serif;
+}
+
+/* Media query for tablets (screen width: 768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  #box2 {
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+
+  .box4, .box5, .box6 {
+    width: 300px; 
+    margin-bottom: 30px; 
+  }
+
+  p {
+    font-size: 19px; 
+  }
+}
+
+/* Media query for smaller tablets and phones (screen width: 600px - 768px) */
+@media screen and (max-width: 768px) {
+  #box2 {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .box4, .box5, .box6 {
+    width: 90%; 
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-left: 0; 
+  }
+
+  h4 {
+    font-size: 22px; 
+  }
+}
+
+/* Media query for phones (screen width: 320px - 600px) */
+@media screen and (max-width: 600px) {
+  #box2 {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box4, .box5, .box6 {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 90px;
+  }
+
+  h4 {
+    font-size: 20px; 
+  }
+
+  p {
+    font-size: 16px; 
+  }
+}
+
+.last{
+background-color:rgb(224, 208, 189);
+margin-top: 450px; 
+height: 550px;
+display: block;
+}
+
+.text19 p{
+font-family: 'the-seasons',sans-serif;
+font-size: 25px;
+margin-left: 300px;
+width: 800px;
+margin-top: -350px;
+ } 
+
+.text19 h5{
+margin-left: 670px;
+font-family: 'the-seasons',sans-serif;
+font-size: 17px;
+}
+
+.pic2{
+  margin-top: -336px;
+  margin-left: 1253px;
+}
+
+/* Media query for tablets (screen width: 768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .text19 p {
+    margin-left: 150px;
+    width: 90%; 
+  }
+
+  .text19 h5 {
+    margin-left: 150px;
+    text-align: left; 
+  }
+
+  .pic2 {
+    margin-left: 0; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .pic2 img {
+    max-width: 100%; 
+  }
+}
+
+/* Media query for phones (screen width: 320px - 768px) */
+@media screen and (max-width: 768px) {
+  .last {
+    padding: 30px;
+    margin-top: 100px; 
+  }
+
+  .text19 p {
+    margin-left: 20px;
+    width: 90%;
+    font-size: 18px; 
+  }
+
+  .text19 h5 {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .pic2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .pic2 img {
+    max-width: 100%;
+    width: 100%; 
+    margin-top: 500px;
+  }
+}
+
+/* about */
+.main2{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://www.quintanaevents.com/wp-content/uploads/2024/04/about-us-2023-2.jpg);
+  background-attachment: fixed;
+}
+
+.image-overlay2{
+  width: 100%;
+  height:84.5vh;
+  display:flex;
+  background-color:#0000003f;
+color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1100px;
+  }
+
+  
+.heading1{
+margin-left: 50px;
+font-size: 3em;
+font-family:'the-seasons',sans-serif;
+margin-top: 100px;
+width: 60%;
+color: #fafafa;
+text-transform: uppercase;
+text-align: center;
+font-weight: 300;
+font-style: normal;
+line-height: 1.3em;
+}
+
+#section{
+background-color: #f7f6f6; 
+margin-top: -105px;
+height: 50vh;
+}
+ 
+.head2{
+font-size: 25px;
+font-family:'the-seasons',sans-serif ;
+text-align: center;
+color: #000;
+margin-top: -450px;
+margin-left: -140px;
+}
+ 
+.head2 h2{
+font-size: 22px;
+font-family:'the-seasons',sans-serif ;
+width: 1150px;
+margin-left: 500px;
+}
+ 
+.head2hr1{
+width: 50px;
+margin-top: 40px;
+margin-left: 850px;
+}
+ 
+.head2 p{
+font-size: 18px;
+font-family:'the-seasons',sans-serif ;
+width: 58%;
+margin-left: 500px;
+margin-top: 40px;
+}
+
+#about{
+background-color:rgb(224, 208, 189);
+margin-top: 200px; 
+height: 590px;
+padding: 80px;
+}
+
+#about h1{
+font-family:'the-seasons',sans-serif; 
+font-size: 40px;
+margin-left: 250px;
+}
+
+#about p{
+width: 750px;
+margin-left: 130px;
+line-height: 1.8em;
+}
+
+#about img{
+margin-left: 922px;
+margin-top: -540px;
+}
+
+.about1{
+background-color:rgb(224, 208, 189);
+height: 538px;
+padding: 80px;
+}
+.about1 h1{
+font-family:'the-seasons',sans-serif; 
+font-size: 40px;
+margin-top: -40px;
+margin-left: 1250px;
+}
+  
+.about1 p{
+width: 750px;
+margin-left: 1000px;
+line-height: 1.8em;
+}
+
+.about1 ul{
+margin-left: 1000px;
+}
+
+.about1 ul li{
+margin-top: 55px;
+}
+
+.about1 img{
+margin-left: -78px;
+margin-top: -696px;
+}
+
+.pic5{
+width: 100%;
+height: 70vh;
+background-position: center;
+background-size: cover;
+background-image: url(https://www.quintanaevents.com/wp-content/uploads/2015/02/about-section-divider.jpg);
+background-attachment: fixed;
+} 
+
+.tabout{
+  color: white;
+  height: 45vh;
+}
+
+.tabout1 {
+  width: 44%;
+    height: 50vh;
+    font-family: "brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #fcfbfb;
+    font-size: 25px;
+    line-height: 1.8;
+    letter-spacing: 0;
+    margin-left: 590px;
+    margin-top: -490px;
+
+} 
+.tabout1 h2{
+  font-family: "brandon-grotesque",sans-serif;
+  font-size: 30px;
+  width: 800px;
+}
+
+.team h1{
+  font-family:'the-seasons',sans-serif; 
+  font-size: 40px;
+  margin-left: 800px;
+  margin-top: 150px;
+}
+
+.name1 img , .name2 img ,.name3 img ,.name4 img ,.name5 img ,
+.name6 img {
+  margin-top: 100px;
+  width: 20%;
+  margin-left: 500px;
+}
+
+.name1 h1 ,.name2 h1 ,.name3 h1 ,.name4 h1 ,.name5 h1 
+{ 
+  font-family:'the-seasons',sans-serif; 
+  font-size: 40px;
+  margin-left: 950px;
+  margin-top: -581px;
+}
+
+.name1 h4 , .name2 h4, .name3 h4, .name4 h4, .name5 h4{
+  font-family:"brandon-grotesque",sans-serif;
+  font-size: 20px;
+  margin-left: 950px;
+  margin-top: -5px
+  550px; 
+}
+
+.name1 p , .name2 p , .name3 p , .name4 p , .name5 p 
+{
+  width: 750px;
+  margin-left: 950px;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+.name6 img{
+  margin-top: 180px;
+  width: 20%;
+  margin-left: 500px;
+}
+.name6 h1{
+  font-family:'the-seasons',sans-serif; 
+  font-size: 40px;
+  margin-left: 950px;
+  margin-top: -399px;
+}
+
+.name6 h4{
+  font-family:"brandon-grotesque",sans-serif;
+  font-size: 20px;
+  margin-left: 950px;
+  margin-top: -5px
+  550px; 
+}
+
+.name6 p {
+  width: 750px;
+  margin-left: 950px;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+
+
+
+
+
+
+/* contact */
+.main3{
+width: 100%;
+height: 100vh;
+background-position: center;
+background-size: cover;
+background-image: url(https://www.quintanaevents.com/wp-content/uploads/2015/02/contact-header2.jpg);
+background-attachment: fixed;
+}
+
+.image-overlay2{
+width: 100%;
+height:84.5vh;
+display:flex;
+background-color:#0000003f;
+color: white;
+align-items: center;
+justify-content: center;
+margin-top: -1100px;
+}
+
+.heading1{
+margin-left: 50px;
+font-size: 3em;
+font-family:'the-seasons',sans-serif;
+margin-top: 100px;
+width: 60%;
+color: #fafafa;
+text-transform: uppercase;
+text-align: center;
+font-weight: 300;
+font-style: normal;
+line-height: 1.3em;
+}
+
+.container1{
+margin-top: -400px;
+width: 400px;
+margin-left: 410px;
+}
+
+#submit-button1{
+background-color: #000;
+color: white;
+padding: 15px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 50px;
+}
+
+.end2{
+margin-top: -470px;
+margin-left: 950px;
+}
+
+.end2 hr{
+  width: 180px;
+  margin-left: -12px;
+  margin-top: 50px;
+}
+
+.end2 p{
+  font-size: 15px;
+}
+
+.map{
+  margin-left: 360px;
+  margin-top: -450px;
+}
+
+.last3{
+  background-color:rgb(224, 208, 189); 
+  height: 470px;
+margin-top: 150px;
+}
+
+.last4 h3{
+  font-size: 20px;
+  font-family:'the-seasons',sans-serif;
+  width: 800px;
+  line-height: 1.9em;
+  margin-top: -350px;
+  margin-left: 250px;
+}
+
+.last4 h4{
+  font-size: 15px;
+  font-family:'the-seasons',sans-serif;
+  margin-left: 850px;
+}
+
+.last4 img{
+  margin-left: 1205px;
+  margin-top: -365px;
+}
+
+.testimonial1{
+  margin-top: 500px;
+}
+
+.testimonial1 p{
+text-transform: uppercase;
+font-size: 38px;
+font-family: "brandon-grotesque",sans-serif;
+font-style: normal;
+font-weight: 300;
+width: 800px;
+margin-left: 960px;
+margin-top: -400px;
+}
+
+.timg1{
+  margin-left: 900px ;
+  margin-top: -120px;
+}
+
+.footer-logos{
+margin-top: -800px;
+margin-left: 500px;
+}
+
+.end5{
+background-color: #000;
+margin-top: 250px;
+height: 70px;
+}
+
+.end5 h4{
+  color: #f5f3f3;
+  margin-left: 700px;
+}
