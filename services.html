@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES</title>
+    <link rel="stylesheet" href="./style1.css">
+    <link rel="icon" href="./IMAGES/Quintana_Events_logo-removebg-preview.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+</head>
+
+
+
+
+
+
+<body style="margin: 0px;padding: 0px;">
+    <div id="navbar-0" >
+
+        <div class="img-0"><img src="https://www.quintanaevents.com/wp-content/themes/quintana/images/quintana-events-and-design-logo.png" height="70px" >
+        </div>
+        
+    <ul class="menu">
+    <li><a id="links" href="index.html">HOME</a></li>
+    <li><a  id = 'links' href="about.html">ABOUT</a></li>
+    <li><a  id = 'links' href="services (2).html">SERVICES</a></li>
+
+    <li><a id="links" href="testimonial.html">TESTIMONIALS</a></li>
+    
+    </ul>
+     
+    </div> 
+
+    <h1 class="main1">
+        WE'LL PROVIDE YOU OUR BEST SERVICES
+    </h1>
+    <br>
+    <br>
+    <br>
+    <h2 class="h22-2">
+        CLICK ON THESE BOXES FOR IMAGES
+    </h2>
+
+    <div id="but-0">
+    <div class="but-1">
+        <a href="./wedding.html" target="_main"> <button style="background-color: black;"> <img src="./IMAGES/500+ Wedding Pictures _ 1.jpeg" width="70px" height="100px"></button> </a>
+        <h2>
+            WEDDING
+        </h2>
+    </div>
+    <div class="but-2">
+        <a href="./birthday.html" target="_main"> <button style="background-color: black;"> <img src="./IMAGES/25pcs Mixed Pattern Balloon.jpeg" width="90px" height="100px"></button> </a>
+        <h2>
+            BIRTHDAY
+        </h2>
+    </div>
+    <div class="but-2">
+        <a href="./party.html" target="_main"> <button style="background-color: black;"> <img src="./IMAGES/parr.jpeg" width="80px" height="100px"></button> </a>
+        <h2>
+           PARTY
+        </h2>
+    </div>
+</div>
+<br>
+<br>
+
+<div class="banner-0">
+    <P>"We specialize in creating unforgettable experiences tailored to your unique needs. Whether it's a corporate event, wedding, or social gathering."</P>
+</div>
+
+<br>
+<br><br>
+    
+    <div>
+       
+        <div id="wed-1">
+            
+        
+            <a href="./wedding.html"><img src="./IMAGES/Quintana Events.jpeg" width='500px'></a>
+            <h2 class="h2-1">
+                YOUR WEDDING WILL BE MEMORABLE WITH US. WE'LL MAKE SURE TO MAKE YOUR SPECIAL DAY MEMORABLE AND ENJOYABLE.<br> WITH QUINTANA YOU ARE ABLE TO MAKE YOUR EVENT SUCH LIKE YOUR DREAMS COMES TRUE
+            </h2>
+            
+        </div>
+        
+        
+    </div>
+    <div id="logo-2">
+
+    </div>
+    <div>
+
+
+       
+        <div id="birth-2">
+
+
+            <a href="./birthday.html"><img src="./IMAGES/birth.jpeg" height="600px" width='500px'></a>
+            <h2 class="h2-1">
+                MAKE YOUR BIRTHDAY PERFECT. YOUR GONNA ENJOY YOUR BIRTH DAY. YOUR BIRTHDAY IS GOING TO BE YOUR BEST DAY.<BR>IT'S OUR PROMISE TO MAKE YOU LAUGH AND HAPPY AND SPREAD SMILE TO YOUR FACE . YOU'LL MISS THAT DAY FOR THE REST OF YOUR LIFE.
+            </h2>
+
+        </div>
+    </div>
+
+    <div id="logo-1">
+        <img class='imglogo' src="./IMAGES/Quintana_Events_logo-removebg-preview.png">
+    </div>
+    <div id="party-1">
+
+        <a href="./party.html">
+            <img src="./IMAGES/letsparty.jpeg" height="600px" width='500px'></a>
+        <h2 class="h2-1">
+            LET'S TAKE THE PARTY TO SKY. IT'S TIME TO ROCK . YOU AND YOUR FRIENDS AND FAMILY ARE GONNA SHOUT THAT THE DAY IS PERFECT FOR BEING HAPPY<BR>
+                YOU DON'T HAVE TO WORRIED ABOUT ANYTHING JUST CHILL AND ENJOY THE TIME
+        </h2>
+
+    </div>
+    <div id="at-1">
+        
+    </div>
+    <header>
+        <h1>BOOK YOUR EVENTS</h1>
+    </header>
+    
+    <div class="container">
+        <h2>Get in Touch</h2>
+        <form >
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" rows="5" placeholder="More about your event" required></textarea>
+            
+            <h1>
+                SELECT YOUR EVENT
+            </h1>
+<select id="event-list">
+    <option class="event" onclick="Selection(this)">SELECT YOUR EVENT</option>
+    <option class="event" onclick="Selection(this)">Wedding</option>
+    <option class="event" onclick="Selection(this)">Birthday</option>
+    <option class="event" onclick="Selection(this)">Party</option>
+</select>
+
+<div id="date-time-section">
+    <label for="event-date">Select Date: </label>
+    <input type="date" id="event-date">
+    <label for="event-time">Select Time: </label>
+    <input type="time" id="event-time">
+</div>
+
+<button id="submit-button" onclick="submitSelection()">BOOKED YOUR EVENT</button>
+        </form>
+    
+        <div class="contact-info">
+            <h3>Contact Details</h3>
+            <div><i class="fas fa-phone"></i> Phone: (0334) 1863-837</div>
+            <div><i class="fas fa-envelope"></i> Email: info@quintanaevents.com</div>
+            <div><i class="fas fa-map-marker-alt"></i> Address: Quintana Events, LLC 1055 Broadway, E4, Sonoma, CA 95476</div>
+            
+            <div><i class="fab fa-twitter"></i>Twiter:QUINTANA</div>
+            
+        </div>
+    </div>
+  
+    <div id="footer-1">
+        <h3 class="h3-2">
+            © 2024 Quintana Events, LLC. All Rights Reserved.
+        </h3>
+
+              
+            <div><a href="#"><i class="fab fa-facebook"> </i></a></div>
+            <div><a href="#"><i class="fab fa-twitter"></i></a></div>
+            <div><a href="#" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a></div>
+            <br>
+            <br>
+            
+
+
+   <div >
+    <h3 class="h3-2">
+    Full-service event planning & styling throughout the Bay Area and other exclusive destinations.</h3>
+      <ul>
+        <h1 class="h1-2">
+            TO CONTACT
+        </h1>
+     <li>Bay Area Office: 510-367-3125</li>
+
+    <li>
+        Lake Tahoe & Greater Sacramento: 916-272-1174
+    </li>
+    
+    <li>
+        Email: info@quintanaevents.com
+    </li>
+      </ul>
+   </div>
+
+   <div>
+    Quintana Events, LLC
+     1055 Broadway, E4,
+      Sonoma, CA
+       95476 
+   </div>
+
+        </div>
+        <script>
+      
+    
+            function submitSelection() {
+                const selectedEvents = Array.from(document.querySelectorAll('.event.selected')).map(event => event.textContent);
+                const eventDate = document.getElementById('event-date').value;
+                const eventTime = document.getElementById('event-time').value;
+            
+                if (selectedEvents.length > 0) {
+                    
+                    alert('Selected Events: ' + selectedEvents.join(', ') + '\n' + dateTime);
+                } else {
+                     alert('YOUR EVENT IS BOOKED.');
+                 }
+            }
+            
+            </script>
+
+    
+   
+</body>
+
+</html>

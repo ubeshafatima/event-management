@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./IMAGES/backk111.jpeg);
+    background-size: cover;
+}
+/* Basic styles for the navbar */
+#navbar-0 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff; /* Change as needed */
+}
+
+.img-0 img {
+    height: 70px; /* Logo size */
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Space between menu items */
+}
+
+.menu li {
+    display: inline;
+}
+
+#links {
+    text-decoration: none;
+    color: #333; /* Link color */
+}
+
+/* Media Query for tablets and smaller devices */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column; /* Stack the menu items */
+        display: none; /* Initially hide menu */
+        position: absolute; /* Position for dropdown */
+        background-color: #fff; /* Background for dropdown */
+        top: 70px; /* Below the navbar */
+        left: 0;
+        width: 100%; /* Full width */
+    }
+
+    .menu.active {
+        display: flex; /* Show menu when active */
+    }
+
+    #navbar-0 {
+        flex-direction: column; /* Stack logo and menu */
+    }
+
+    .img-0 {
+        margin-bottom: 10px; /* Space between logo and menu */
+    }
+
+    .menu li {
+        margin: 10px 0; /* Space between menu items */
+    }
+}
+
+/* Button for toggling menu visibility on mobile */
+.menu-toggle {
+    display: none; /* Hide by default */
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+    .menu-toggle {
+        display: block; /* Show toggle button */
+        cursor: pointer; /* Pointer on hover */
+        background: none;
+        border: none;
+        font-size: 18px; /* Adjust size as needed */
+    }
+
+    .menu {
+        display: none; /* Hide menu by default */
+    }
+
+    .menu.active {
+        display: flex; /* Show menu when active */
+    }
+}
+
+.h1-5{
+    text-align: center;
+    margin: 150px;
+    color: azure;
+}
+#pics{
+    border-radius: 8px;
+    background-color: white;
+    border: solid white;
+}
+event {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.event:hover {
+    background-color: #f0f0f0;
+}
+
+.selected {
+    background-color: #d1e7dd;
+    border-color: #0f5132;
+}
+
+#date-time-section {
+    margin: 20px 0;
+}
+header {
+    background: #2f5549;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background: #2a513f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background: #E1306C;
+}
+.contact-info {
+    margin-top: 20px;
+}
+.contact-info div {
+    margin: 10px 0;
+}
+
+#footer-1{
+    background-color: rgb(10, 11, 11);
+    color: rgb(244, 244, 244);
+    text-align: center;
+    margin-top: 0;
+    padding: 30px
+}
+.h3-2{
+    color: white;
+
+}
+li{
+    color: white;
+}
+.h1-2{
+    color: white;
+}
+.h1-3{
+    color: rgb(15, 17, 18);
+    text-align: center;
+    font-size: xx-large;
+}
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .h1-5 {
+        font-size: 30px; /* Smaller font size for header */
+        margin: 50px 0; /* Reduce margin */
+    }
+
+    #pics {
+        display: flex;
+        flex-direction: column; /* Stack images vertically */
+        align-items: center; /* Center align images */
+    }
+
+    #pics img {
+        width: 90%; /* Make images responsive */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 15px; /* Add spacing between images */
+    }
+
+    .container {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    input, textarea {
+        padding: 8px; /* Adjust input padding */
+    }
+
+    button {
+        padding: 12px; /* Adjust button padding */
+    }
+}
+
+/* Tablets (min-width: 769px and max-width: 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .h1-5 {
+        font-size: 40px; /* Adjust font size */
+        margin: 100px 0; /* Adjust margins */
+    }
+
+    #pics {
+        display: grid; /* Use grid layout */
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+        gap: 10px; /* Space between images */
+    }
+
+    #pics img {
+        width: 100%; /* Full width images */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .container {
+        padding: 15px; /* Adjust padding */
+    }
+
+    button {
+        padding: 10px; /* Adjust button padding */
+    }
+}
+
+/* Large Screens (min-width: 1025px) */
+@media (min-width: 1025px) {
+    .h1-5 {
+        font-size: 50px; /* Larger font size */
+    }
+
+    #pics {
+        display: flex; /* Flex layout for larger screens */
+        flex-wrap: wrap; /* Allow wrapping */
+        justify-content: center; /* Center images */
+    }
+
+    #pics img {
+        width: 200px; /* Fixed width for images */
+        height: auto; /* Maintain aspect ratio */
+        margin: 10px; /* Spacing around images */
+    }
+
+    .container {
+        max-width: 1000px; /* Increase container width */
+    }
+
+    button {
+        padding: 15px; /* Adjust button padding */
+    }
+}
